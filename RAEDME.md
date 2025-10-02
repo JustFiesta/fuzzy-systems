@@ -1,5 +1,7 @@
 # Fuzzy Systems
 
+Repository for fuzzy-systems laboratories from studies.
+
 ## Project Team
 
 JustFiesta (Mateusz Bocak)
@@ -11,9 +13,3 @@ Poicale (Karol Dąbrowski)
 TODO on labs
 
 Figure something out
-
-## Needed dependencies
-
-scikit-fuzzy + scipy + networkx
-numpy
-scikit-learn
