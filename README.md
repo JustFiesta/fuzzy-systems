@@ -4,9 +4,9 @@ Repository for fuzzy-systems laboratories from studies.
 
 ## Project Team
 
-JustFiesta (Mateusz Bocak)
-Rolaski (Jakub Jakubowski)
-Poicale (Karol Dąbrowski)
+* JustFiesta (Mateusz Bocak)
+* Rolaski (Jakub Jakubowski)
+* Poicale (Karol Dąbrowski)
 
 ## Project
 
