@@ -1,12 +1,18 @@
-# Systemy rozmyte
+# Fuzzy Systems
 
-## projekt
+## Project Team
 
-ja + kuba + karol
+JustFiesta (Mateusz Bocak)
+Rolaski (Jakub Jakubowski)
+Poicale (Karol Dąbrowski)
 
-dowiemy sie na labach
+## Project
 
-## co potrzeba
+TODO on labs
+
+Figure something out
+
+## Needed dependencies
 
 scikit-fuzzy + scipy + networkx
 numpy
