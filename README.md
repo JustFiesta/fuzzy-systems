@@ -6,7 +6,7 @@ Repository for fuzzy-systems laboratories from studies.
 
 * JustFiesta (Mateusz Bocak)
 * Rolaski (Jakub Jakubowski)
-* Poicale (Karol Dąbrowski)
+* Poicalee (Karol Dąbrowski)
 
 ## Project
 
