@@ -30,5 +30,5 @@ pip freeze > requirements.txt
 ## How to run development env
 
 ```shell
-# TODO
+python -m src.ui.ui_app
 ```
