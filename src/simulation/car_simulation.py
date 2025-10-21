@@ -24,7 +24,7 @@ class CarSimulation:
         mass: float = 1000.0,
         drag_coeff: float = 50.0,
         max_throttle: float = 5000.0,
-        dt: float = 0.1
+        dt: float = 0.033
     ):
         self.mass = mass
         self.drag_coeff = drag_coeff
