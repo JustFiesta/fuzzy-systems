@@ -1,0 +1,27 @@
+Wykonano projekt dotyczący wnioskowania/sterowania rozmytego,
+który charakteryzuje się zastosowaniem zaniżonej liczby zmiennych
+wejściowych i wyjściowych, względem rozważanego problemu. Ocena
+jest wystawiana również, jeżeli zastosowano zaniżoną liczbę funkcji
+przynależności do zmiennych wejściowych/wyjściowych. Inna
+poważna wada projektu, to zamodelowanie problemu, gdzie występują
+zmienne typowo binarne i gdzie nie ma niejednoznaczności, zatem
+który nie powinien być rozwiązywany za pomocą wnioskowania
+rozmytego.
+Skutkuje to oddaniem projektu, który może być opisany jako trywialny
+i który nie modeluje w wystarczający sposób rozważanego problemu.
+Istnieją obiektywne przesłanki, które pozwalają stwierdzić
+nieadekwatność zaproponowanego rozwiązania (tzn. analiza reguł i
+uruchomienie symulacji, pozwalają stwierdzić empirycznie, że
+zaproponowane rozwiązanie problemu nie działa w sposób
+satysfakcjonujący).
+Dokumentacja jest wykonana pobieżnie, brakuje zarówno dokładnego
+opisu rozważanego problemu, analizy zaproponowanego rozwiązania,
+uzasadnienia dla zastosowanych funkcji przynależności i
+zaproponowanych reguł.
+ocena 3.5 Wykonano projekt dotyczący wnioskowania/sterowania rozmytego,
+który charakteryzuje się dość dobrym rozwiązaniem rozważanego
+problemu. Projekt może posiadać drobne uchybienia i nieścisłości, ale
+jako całość jest sensowny i można empirycznie stwierdzić
+adekwatność zaproponowanego rozwiązania. Projekt nie posiada wad
+wymienionych w poprzednim wierszu tabeli.
+Dokumentacja projektu jest wykonana poprawnie.
