@@ -5,9 +5,6 @@ Wizualizacja w czasie rzeczywistym ruchu pojazdu po torze owalnym.
 Łączy:
 - car_simulation.py (model fizyczny pojazdu)
 - fuzzy_throttle_controller.py (logika sterowania)
-
-Autor: Inżynier systemów dynamicznych
-Data: 2025-10-21
 """
 
 import numpy as np

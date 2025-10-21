@@ -3,9 +3,6 @@ Moduł sterowania rozmytego mocą silnika samochodu.
 
 Implementuje logikę rozmytą do obliczania wartości przepustnicy (throttle)
 na podstawie błędu prędkości i przyspieszenia.
-
-Autor: Inżynier systemów rozmytych
-Data: 2025-10-21
 """
 
 import numpy as np
