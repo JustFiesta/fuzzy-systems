@@ -1,0 +1,9 @@
+Okej, więc mam taką sprawę - zrobiłem już samodystarczalny moduł z logiką rozmyta i testami do symulacji jazdy samochodu. Teraz chcę to podłączyć pod UI w Pythonie, żeby:
+
+samochód jeździł po owalnym torze w wizualizacji
+
+były suwaki do zmiany parametrów auta w locie
+
+UI dynamicznie pokazywało jak zmienia się jazda
+
+I właśnie nie wiem jak to najlepiej posklejać - ta logika jest jakby osobno, a UI ma z tego korzystać. Jak to sensownie połączyć, żeby działało płynnie?

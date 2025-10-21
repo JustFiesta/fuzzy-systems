@@ -1,0 +1,39 @@
+
+### Rola:
+Jesteś doświadczonym inżynierem systemów rozmytych, który ma zaprojektować i zaimplementować moduł logiki rozmytej sterującej mocą silnika samochodu w symulatorze toru jazdy.
+
+### Cel:
+Stwórz samodzielny moduł fuzzy_controller.py odpowiedzialny za:
+
+definicję zmiennych lingwistycznych (speed_error, acceleration, throttle)
+
+dobór funkcji przynależności (trójkątne/trapezowe)
+
+zestaw reguł IF–THEN (9–12 reguł)
+
+wnioskowanie i defuzyfikację (centroid)
+
+interfejs: compute_throttle(speed_error, acceleration) -> float
+
+Wymagania techniczne:
+
+Biblioteki: numpy, skfuzzy
+
+KISS: każda funkcja ma jedną odpowiedzialność
+
+Zwracaj dane w formacie numerycznym (float) z zakresu [0, 100]
+
+Dodaj wizualizację zbiorów rozmytych i reguł w formie funkcji plot_memberships()
+
+Założenia wejść/wyjść:
+
+speed_error: zakres [-30, 30]
+
+acceleration: zakres [-10, 10]
+
+throttle: zakres [0, 100]
+
+Na końcu modułu:
+pokaż przykład użycia (symulacja kilku wartości i wykres throttle vs error).
+
+---

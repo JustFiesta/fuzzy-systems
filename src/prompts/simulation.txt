@@ -1,0 +1,35 @@
+
+## Prompt 2 – Simulation Engineer
+
+Rola:
+Jesteś inżynierem systemów dynamicznych. Twoim zadaniem jest zbudować moduł symulacji fizyki pojazdu dla fuzzy kontrolera.
+
+Cel:
+Stwórz moduł car_simulation.py, który modeluje ruch pojazdu po torze (1D lub 2D).
+
+Założenia:
+
+Symulacja czasu dyskretnego (Δt = 0.1 s)
+
+Parametry pojazdu: masa, opór, siła napędowa
+
+Stan: pozycja, prędkość, przyspieszenie
+
+Aktualizacja w pętli:
+acceleration = (throttle - drag_coeff * speed) / mass
+speed += acceleration * Δt
+position += speed * Δt
+
+Interfejs:
+
+update(throttle: float, dt: float) -> dict zwraca słownik ze stanem (speed, acceleration, position)
+
+reset() – resetuje stan
+
+Integracja:
+
+Ma być niezależny od logiki fuzzy (throttle to po prostu wejście liczbowe)
+
+Przygotuj test symulacji: zadane throttle = 50 → pokaż wykres prędkości w czasie.
+
+Biblioteki: numpy, matplotlib, time
