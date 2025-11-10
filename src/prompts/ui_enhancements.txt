@@ -1,0 +1,58 @@
+Part 1
+
+tworzę projekt modelujący logikę rozmytą dla pojazdu jeżdzącego po torze. Jest ona zrobiona w pythonie.
+
+Mam dwa tematy do poprawy.
+1. Obecnie UI jest bardzo mało responsywne, działa wolno i mocno obciąża jeden wątek/rdzeń przez co jest średnio przyjenmne do wyrzkosytania.
+2. Nie wiem jak ją dystrybuować - chciałem dockera ale nie wiem jak desktopowa apka ma przekazywać coś na ekran. Może jest inna lepsza i prostsza droga?
+
+Chciałbym abyś zaproponował mi samo teoretyczne przedstawienie zmian rozwiązujących te problemy. Napisz po 5 rozwiązań dla każdego problemu - wybiore z nich najlepsze do implementacji.
+
+Załączony masz codebase projektu. Nie pisz kodu tylko same teoretyczne zagadnienia, krótko i zwięźle.
+
+Part 2
+
+mam UI do wizualizacji logiki rozmytej pojazdu poruszającego sie po torze w pythonie.
+
+otrzymuje błąd przy próbie jej uruchomienia i potrzebujue pomocy z jego naprawą:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\Masti\Desktop\Programowanie\fuzzy-systems\src\ui\ui_app.py", line 494, in <module>
+    main()
+  File "C:\Users\Masti\Desktop\Programowanie\fuzzy-systems\src\ui\ui_app.py", line 487, in main
+    window = FuzzyCarUI()
+             ^^^^^^^^^^^^
+  File "C:\Users\Masti\Desktop\Programowanie\fuzzy-systems\src\ui\ui_app.py", line 108, in __init__
+    self._init_ui()
+  File "C:\Users\Masti\Desktop\Programowanie\fuzzy-systems\src\ui\ui_app.py", line 146, in _init_ui
+    control_panel = self._create_control_panel()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Masti\Desktop\Programowanie\fuzzy-systems\src\ui\ui_app.py", line 267, in _create_control_panel
+    self.mass_slider.valueChanged.connect(self._update_car_params)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QWidget' object has no attribute 'valueChanged'
+
+
+struktura:
+ ls .\src\                                                      
+
+
+    Directory: C:\Users\Masti\Desktop\Programowanie\fuzzy-systems\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        21.10.2025     17:44                core_fuzzy
+d-----        21.10.2025     18:16                docs
+d-----        21.10.2025     18:06                prompts
+d-----        21.10.2025     17:44                simulation
+d-----        21.10.2025     17:43                ui
+d-----        21.10.2025     17:43                __pycache__
+-a----        21.10.2025     17:21           2402 README.md
+-a----        21.10.2025     17:21           3551 team-tasks-sprint.md
+-a----        21.10.2025     17:37              0 __init__.pykod:
+
+
+*kod*

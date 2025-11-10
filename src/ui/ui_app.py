@@ -457,7 +457,7 @@ class FuzzyCarUI(QtWidgets.QMainWindow):
             f"📍 Pozycja: {self.car.position:.1f}m  |  "
             f"🏁 Prędkość: {self.car.speed:.1f} m/s ({self.car.speed*3.6:.1f} km/h)  |  "
             f"🎯 Cel: {self.target_speed:.1f} m/s ({self.target_speed*3.6:.1f} km/h)  |  "
-            f"⚡ Throttle: {self.history['throttle'][-1] if self.history['throttle'] else 0:.1f}%  |  "
+            f"⚡ Przepustnica: {self.history['throttle'][-1] if self.history['throttle'] else 0:.1f}%  |  "
             f"📊 Błąd: {self.history['speed_error'][-1] if self.history['speed_error'] else 0:.1f} km/h"
         )
         self.info_label.setText(info_text)
