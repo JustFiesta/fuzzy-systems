@@ -10,6 +10,4 @@ Repository for fuzzy-systems laboratories from studies.
 
 ## Project
 
-TODO on labs
-
-Figure something out
+Fuzzy Car Controller - simple UI application with some parameters to manage car driving in round circuit.
