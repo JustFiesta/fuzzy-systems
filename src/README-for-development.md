@@ -1,6 +1,6 @@
 # Development environment
 
-* >= Python 3.10
+- `>= Python 3.10`
 
 ## How to Run project
 
