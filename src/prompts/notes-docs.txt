@@ -1,0 +1,5 @@
+mam projekt z systemów rozmytych. chchiałbym abyś przygtował mnie do jego obrony dogłębnie.
+
+chce bys wydobył z niego istotne mechanizmy, szczegóły, implementacje i działanie pod kątem obrony projektu przy prowadzącym i nauczył mnie szczegółów tego projektu.
+
+napisz to w formie readme jako notatki przypominajki
